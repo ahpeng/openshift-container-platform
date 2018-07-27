@@ -467,7 +467,7 @@
 			"platform": "AzurePublic",
 			"provider": "9d2c71fc-96ba-4b4a-93b3-14def5bc96fc"
 		},
-		"bastionVmSize": "Standard_D2s_v3",
+		"bastionVmSize": "Standard_D4_v2",
 		"glusterDiskSize": 128,
 		"cnsInstanceCount": 3,
 		"singlequote": "'",
