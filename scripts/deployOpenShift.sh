@@ -59,7 +59,7 @@ then
     export CLOUDNAME="AzureUSGovernmentCloud"
 else
     DOCKERREGISTRYYAML=dockerregistrypublic.yaml
-    export CLOUDNAME="AzurePublicCloud"
+    export CLOUDNAME="AzureChinaCloud"
 fi
 
 # Setting the default openshift_cloudprovider_kind if Azure enabled

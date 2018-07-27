@@ -8,7 +8,7 @@
 				"description": "Base URL for Template Files",
 				"artifactsBaseUrl": ""
 			},
-			"defaultValue": "https://raw.githubusercontent.com/Microsoft/openshift-container-platform/master"
+			"defaultValue": "https://raw.githubusercontent.com/ahpeng/openshift-container-platform/master/"
 		},
 		"masterVmSize": {
 			"type": "string",
@@ -456,9 +456,9 @@
 		"infraLbHttpProbeId": "[concat(variables('infraLbId'),'/probes/httpProbe')]",
 		"infraLbHttpsProbeId": "[concat(variables('infraLbId'),'/probes/httpsProbe')]",
 		"imageReference": {
-			"publisher": "RedHat",
-			"offer": "RHEL",
-			"sku": "7-RAW",
+			"publisher": "yungoalbj",
+			"offer": "redhat",
+			"sku": "redhat_en-us_7_3_0",
 			"version": "latest"
 		},
 		"redHatTags": {
